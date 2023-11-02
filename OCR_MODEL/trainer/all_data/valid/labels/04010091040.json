@@ -1,0 +1,1700 @@
+{
+    "info": {
+        "name": "Korean OCR Data Set",
+        "description": "Korean OCR Data Set (print)",
+        "date_created": "2021-03-18 15:43:35"
+    },
+    "image": {
+        "file_name": "04010091040.jpg",
+        "width": 2480,
+        "height": 3508,
+        "dpi": 300,
+        "bit": 24
+    },
+    "license": {
+        "output": "print",
+        "font": "야놀자 야체",
+        "font_no": "09",
+        "font_license": "야놀자-OFL",
+        "font_url": "https://yanolja.in/ko/yafont/",
+        "writer_no": "",
+        "writer_gender": "",
+        "writer_age": ""
+    },
+    "text": {
+        "word": [
+            {
+                "wordbox": [1070, 388, 1113, 430],
+                "value": "담",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1072, 390, 1111, 428],
+                        "value": "담"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1162, 388, 1205, 431],
+                "value": "당",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1164, 390, 1203, 429],
+                        "value": "당"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1285, 388, 1330, 431],
+                "value": "과",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1287, 390, 1328, 429],
+                        "value": "과"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1378, 388, 1422, 431],
+                "value": "장",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1380, 390, 1420, 429],
+                        "value": "장"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1503, 388, 1547, 431],
+                "value": "부",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1505, 390, 1545, 429],
+                        "value": "부"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1595, 388, 1639, 431],
+                "value": "장",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1597, 390, 1637, 429],
+                        "value": "장"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1722, 388, 1760, 431],
+                "value": "이",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1724, 390, 1758, 429],
+                        "value": "이"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1811, 388, 1856, 431],
+                "value": "사",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1813, 390, 1854, 429],
+                        "value": "사"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1937, 388, 1982, 431],
+                "value": "사",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1939, 390, 1980, 429],
+                        "value": "사"
+                    }
+                ]
+            },
+            {
+                "wordbox": [2030, 388, 2074, 431],
+                "value": "장",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [2032, 390, 2072, 429],
+                        "value": "장"
+                    }
+                ]
+            },
+            {
+                "wordbox": [952, 434, 992, 477],
+                "value": "결",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [954, 436, 990, 475],
+                        "value": "결"
+                    }
+                ]
+            },
+            {
+                "wordbox": [401, 481, 468, 548],
+                "value": "발",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [403, 483, 466, 546],
+                        "value": "발"
+                    }
+                ]
+            },
+            {
+                "wordbox": [773, 481, 835, 549],
+                "value": "서",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [775, 483, 833, 547],
+                        "value": "서"
+                    }
+                ]
+            },
+            {
+                "wordbox": [586, 483, 655, 550],
+                "value": "주",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [588, 485, 653, 548],
+                        "value": "주"
+                    }
+                ]
+            },
+            {
+                "wordbox": [952, 553, 992, 596],
+                "value": "재",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [954, 555, 990, 594],
+                        "value": "재"
+                    }
+                ]
+            },
+            {
+                "wordbox": [534, 777, 564, 817],
+                "value": "주",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [536, 779, 562, 815],
+                        "value": "주"
+                    }
+                ]
+            },
+            {
+                "wordbox": [568, 777, 650, 820],
+                "value": "믓꾕햅",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [570, 779, 596, 817],
+                        "value": "믓"
+                    },
+                    {
+                        "charbox": [595, 779, 621, 818],
+                        "value": "꾕"
+                    },
+                    {
+                        "charbox": [620, 779, 648, 818],
+                        "value": "햅"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 780, 515, 834],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 782, 513, 832],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [248, 785, 291, 828],
+                "value": "발",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [250, 787, 289, 826],
+                        "value": "발"
+                    }
+                ]
+            },
+            {
+                "wordbox": [429, 785, 471, 827],
+                "value": "신",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [431, 787, 469, 825],
+                        "value": "신"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 840, 515, 895],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 842, 513, 893],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [534, 844, 641, 886],
+                "value": "주식회사",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [536, 846, 562, 882],
+                        "value": "주"
+                    },
+                    {
+                        "charbox": [561, 846, 587, 884],
+                        "value": "식"
+                    },
+                    {
+                        "charbox": [586, 846, 612, 880],
+                        "value": "회"
+                    },
+                    {
+                        "charbox": [611, 846, 639, 880],
+                        "value": "사"
+                    }
+                ]
+            },
+            {
+                "wordbox": [645, 844, 752, 887],
+                "value": "푹갓쯤심",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [647, 846, 673, 884],
+                        "value": "푹"
+                    },
+                    {
+                        "charbox": [672, 846, 700, 883],
+                        "value": "갓"
+                    },
+                    {
+                        "charbox": [699, 846, 725, 885],
+                        "value": "쯤"
+                    },
+                    {
+                        "charbox": [724, 846, 750, 884],
+                        "value": "심"
+                    }
+                ]
+            },
+            {
+                "wordbox": [246, 845, 291, 888],
+                "value": "수",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [248, 847, 289, 886],
+                        "value": "수"
+                    }
+                ]
+            },
+            {
+                "wordbox": [429, 845, 470, 887],
+                "value": "신",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [431, 847, 468, 885],
+                        "value": "신"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 900, 515, 951],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 902, 513, 949],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [247, 904, 291, 946],
+                "value": "참",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [249, 906, 289, 944],
+                        "value": "참"
+                    }
+                ]
+            },
+            {
+                "wordbox": [429, 905, 474, 944],
+                "value": "조",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [431, 907, 472, 942],
+                        "value": "조"
+                    }
+                ]
+            },
+            {
+                "wordbox": [594, 956, 628, 994],
+                "value": "10",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [596, 958, 607, 992],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [606, 958, 626, 992],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [729, 956, 753, 994],
+                "value": "9",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [731, 958, 751, 992],
+                        "value": "9"
+                    }
+                ]
+            },
+            {
+                "wordbox": [867, 956, 909, 994],
+                "value": "29",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [869, 958, 888, 992],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [887, 958, 907, 992],
+                        "value": "9"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 957, 515, 1014],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 959, 513, 1012],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [248, 964, 291, 1007],
+                "value": "날",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [250, 966, 289, 1005],
+                        "value": "날"
+                    }
+                ]
+            },
+            {
+                "wordbox": [429, 964, 475, 1007],
+                "value": "짜",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [431, 966, 473, 1005],
+                        "value": "짜"
+                    }
+                ]
+            },
+            {
+                "wordbox": [683, 964, 722, 1006],
+                "value": "년",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [685, 966, 720, 1004],
+                        "value": "년"
+                    }
+                ]
+            },
+            {
+                "wordbox": [818, 964, 859, 1007],
+                "value": "월",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [820, 966, 857, 1005],
+                        "value": "월"
+                    }
+                ]
+            },
+            {
+                "wordbox": [956, 964, 996, 1007],
+                "value": "일",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [958, 966, 994, 1005],
+                        "value": "일"
+                    }
+                ]
+            },
+            {
+                "wordbox": [540, 966, 590, 1005],
+                "value": "20",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [542, 968, 565, 1003],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [565, 968, 588, 1003],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [534, 1016, 589, 1059],
+                "value": "농로",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [536, 1018, 562, 1057],
+                        "value": "농"
+                    },
+                    {
+                        "charbox": [561, 1018, 587, 1052],
+                        "value": "로"
+                    }
+                ]
+            },
+            {
+                "wordbox": [593, 1016, 677, 1059],
+                "value": "확포장",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [595, 1018, 623, 1057],
+                        "value": "확"
+                    },
+                    {
+                        "charbox": [622, 1018, 648, 1052],
+                        "value": "포"
+                    },
+                    {
+                        "charbox": [647, 1018, 675, 1056],
+                        "value": "장"
+                    }
+                ]
+            },
+            {
+                "wordbox": [681, 1016, 738, 1059],
+                "value": "공사",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [683, 1018, 709, 1057],
+                        "value": "공"
+                    },
+                    {
+                        "charbox": [708, 1018, 736, 1052],
+                        "value": "사"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 1021, 515, 1071],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 1023, 513, 1069],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [246, 1024, 287, 1067],
+                "value": "제",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [248, 1026, 285, 1065],
+                        "value": "제"
+                    }
+                ]
+            },
+            {
+                "wordbox": [429, 1024, 473, 1067],
+                "value": "목",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [431, 1026, 471, 1065],
+                        "value": "목"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 1076, 515, 1132],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 1078, 513, 1130],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [594, 1081, 628, 1119],
+                "value": "14",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [596, 1083, 607, 1117],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [606, 1083, 626, 1117],
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "wordbox": [729, 1082, 753, 1120],
+                "value": "8",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [731, 1084, 751, 1118],
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "wordbox": [867, 1082, 909, 1120],
+                "value": "24",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [869, 1084, 888, 1118],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [887, 1084, 907, 1118],
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "wordbox": [248, 1083, 470, 1126],
+                "value": "납기예정일",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [250, 1085, 289, 1123],
+                        "value": "납"
+                    },
+                    {
+                        "charbox": [294, 1085, 330, 1124],
+                        "value": "기"
+                    },
+                    {
+                        "charbox": [341, 1085, 377, 1124],
+                        "value": "예"
+                    },
+                    {
+                        "charbox": [387, 1085, 422, 1124],
+                        "value": "정"
+                    },
+                    {
+                        "charbox": [432, 1085, 468, 1124],
+                        "value": "일"
+                    }
+                ]
+            },
+            {
+                "wordbox": [683, 1083, 723, 1125],
+                "value": "년",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [685, 1085, 721, 1123],
+                        "value": "년"
+                    }
+                ]
+            },
+            {
+                "wordbox": [818, 1083, 859, 1126],
+                "value": "월",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [820, 1085, 857, 1124],
+                        "value": "월"
+                    }
+                ]
+            },
+            {
+                "wordbox": [957, 1083, 997, 1126],
+                "value": "일",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [959, 1085, 995, 1124],
+                        "value": "일"
+                    }
+                ]
+            },
+            {
+                "wordbox": [541, 1085, 591, 1124],
+                "value": "20",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [543, 1087, 566, 1122],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [566, 1087, 589, 1122],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [503, 1136, 515, 1193],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [505, 1138, 513, 1191],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [535, 1140, 615, 1182],
+                "value": "경기도",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [537, 1142, 563, 1180],
+                        "value": "경"
+                    },
+                    {
+                        "charbox": [562, 1142, 588, 1176],
+                        "value": "기"
+                    },
+                    {
+                        "charbox": [587, 1142, 613, 1176],
+                        "value": "도"
+                    }
+                ]
+            },
+            {
+                "wordbox": [619, 1140, 703, 1182],
+                "value": "안양시",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [621, 1142, 649, 1180],
+                        "value": "안"
+                    },
+                    {
+                        "charbox": [648, 1142, 676, 1180],
+                        "value": "양"
+                    },
+                    {
+                        "charbox": [675, 1142, 701, 1176],
+                        "value": "시"
+                    }
+                ]
+            },
+            {
+                "wordbox": [707, 1140, 789, 1183],
+                "value": "동안구",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [709, 1142, 735, 1181],
+                        "value": "동"
+                    },
+                    {
+                        "charbox": [734, 1142, 762, 1180],
+                        "value": "안"
+                    },
+                    {
+                        "charbox": [761, 1142, 787, 1178],
+                        "value": "구"
+                    }
+                ]
+            },
+            {
+                "wordbox": [793, 1140, 900, 1182],
+                "value": "경수대로",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [795, 1142, 821, 1180],
+                        "value": "경"
+                    },
+                    {
+                        "charbox": [820, 1142, 846, 1178],
+                        "value": "수"
+                    },
+                    {
+                        "charbox": [845, 1142, 873, 1176],
+                        "value": "대"
+                    },
+                    {
+                        "charbox": [872, 1142, 898, 1176],
+                        "value": "로"
+                    }
+                ]
+            },
+            {
+                "wordbox": [248, 1143, 291, 1185],
+                "value": "납",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [250, 1145, 289, 1183],
+                        "value": "납"
+                    }
+                ]
+            },
+            {
+                "wordbox": [338, 1143, 382, 1185],
+                "value": "품",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [340, 1145, 380, 1183],
+                        "value": "품"
+                    }
+                ]
+            },
+            {
+                "wordbox": [430, 1143, 469, 1186],
+                "value": "처",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [432, 1145, 467, 1184],
+                        "value": "처"
+                    }
+                ]
+            },
+            {
+                "wordbox": [281, 1379, 369, 1421],
+                "value": "번호",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [283, 1381, 318, 1419],
+                        "value": "번"
+                    },
+                    {
+                        "charbox": [327, 1382, 367, 1417],
+                        "value": "호"
+                    }
+                ]
+            },
+            {
+                "wordbox": [456, 1379, 500, 1421],
+                "value": "품",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [458, 1381, 498, 1419],
+                        "value": "품"
+                    }
+                ]
+            },
+            {
+                "wordbox": [800, 1379, 838, 1422],
+                "value": "명",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [802, 1381, 836, 1420],
+                        "value": "명"
+                    }
+                ]
+            },
+            {
+                "wordbox": [941, 1379, 1032, 1422],
+                "value": "수량",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [943, 1381, 983, 1420],
+                        "value": "수"
+                    },
+                    {
+                        "charbox": [991, 1381, 1030, 1420],
+                        "value": "량"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1122, 1379, 1165, 1421],
+                "value": "단",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1124, 1381, 1163, 1419],
+                        "value": "단"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1189, 1379, 1234, 1422],
+                "value": "가",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1191, 1381, 1232, 1420],
+                        "value": "가"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1372, 1379, 1416, 1421],
+                "value": "금",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1374, 1381, 1414, 1419],
+                        "value": "금"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1510, 1379, 1550, 1422],
+                "value": "액",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1512, 1381, 1548, 1420],
+                        "value": "액"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1717, 1379, 1849, 1422],
+                "value": "부가세",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1719, 1381, 1759, 1420],
+                        "value": "부"
+                    },
+                    {
+                        "charbox": [1765, 1381, 1806, 1420],
+                        "value": "가"
+                    },
+                    {
+                        "charbox": [1810, 1381, 1847, 1420],
+                        "value": "세"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1987, 1379, 2075, 1422],
+                "value": "비고",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1989, 1381, 2023, 1420],
+                        "value": "비"
+                    },
+                    {
+                        "charbox": [2033, 1382, 2073, 1417],
+                        "value": "고"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1287, 1500, 1460, 1545],
+                "value": "60,940,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1289, 1502, 1309, 1536],
+                        "value": "6"
+                    },
+                    {
+                        "charbox": [1308, 1502, 1328, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1327, 1502, 1336, 1543],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1335, 1502, 1355, 1536],
+                        "value": "9"
+                    },
+                    {
+                        "charbox": [1354, 1502, 1374, 1536],
+                        "value": "4"
+                    },
+                    {
+                        "charbox": [1373, 1502, 1393, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1392, 1502, 1401, 1543],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1400, 1502, 1420, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1419, 1502, 1439, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1438, 1502, 1458, 1536],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1645, 1500, 1797, 1545],
+                "value": "2,560,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1647, 1502, 1666, 1536],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [1665, 1502, 1674, 1543],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1673, 1502, 1692, 1536],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [1691, 1502, 1711, 1536],
+                        "value": "6"
+                    },
+                    {
+                        "charbox": [1710, 1502, 1730, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1729, 1502, 1738, 1543],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1737, 1502, 1757, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1756, 1502, 1776, 1536],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1775, 1502, 1795, 1536],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [398, 1501, 478, 1543],
+                "value": "잉크지",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [400, 1503, 426, 1541],
+                        "value": "잉"
+                    },
+                    {
+                        "charbox": [425, 1503, 451, 1537],
+                        "value": "크"
+                    },
+                    {
+                        "charbox": [450, 1503, 476, 1537],
+                        "value": "지"
+                    }
+                ]
+            },
+            {
+                "wordbox": [909, 1501, 969, 1539],
+                "value": "783",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [911, 1503, 930, 1537],
+                        "value": "7"
+                    },
+                    {
+                        "charbox": [929, 1503, 949, 1537],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [948, 1503, 967, 1537],
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1074, 1501, 1162, 1546],
+                "value": "5,486",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1076, 1503, 1095, 1537],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [1094, 1503, 1103, 1544],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1102, 1503, 1122, 1537],
+                        "value": "4"
+                    },
+                    {
+                        "charbox": [1121, 1503, 1141, 1537],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [1140, 1503, 1160, 1537],
+                        "value": "6"
+                    }
+                ]
+            },
+            {
+                "wordbox": [316, 1506, 331, 1545],
+                "value": "1",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [318, 1508, 329, 1543],
+                        "value": "1"
+                    }
+                ]
+            },
+            {
+                "wordbox": [398, 1616, 453, 1659],
+                "value": "봉투",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [400, 1618, 426, 1657],
+                        "value": "봉"
+                    },
+                    {
+                        "charbox": [425, 1618, 451, 1654],
+                        "value": "투"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1074, 1617, 1152, 1662],
+                "value": "5,421",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1076, 1619, 1095, 1653],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [1094, 1619, 1103, 1660],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1102, 1619, 1122, 1653],
+                        "value": "4"
+                    },
+                    {
+                        "charbox": [1121, 1619, 1140, 1653],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [1139, 1619, 1150, 1653],
+                        "value": "1"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1645, 1617, 1799, 1662],
+                "value": "9,080,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1647, 1619, 1667, 1653],
+                        "value": "9"
+                    },
+                    {
+                        "charbox": [1666, 1619, 1675, 1660],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1674, 1619, 1694, 1653],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1693, 1619, 1713, 1653],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [1712, 1619, 1732, 1653],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1731, 1619, 1740, 1660],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1739, 1619, 1759, 1653],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1758, 1619, 1778, 1653],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1777, 1619, 1797, 1653],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [909, 1618, 962, 1656],
+                "value": "106",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [911, 1620, 922, 1654],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [921, 1620, 941, 1654],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [940, 1620, 960, 1654],
+                        "value": "6"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1287, 1618, 1449, 1663],
+                "value": "63,130,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1289, 1620, 1309, 1654],
+                        "value": "6"
+                    },
+                    {
+                        "charbox": [1308, 1620, 1327, 1654],
+                        "value": "3"
+                    },
+                    {
+                        "charbox": [1326, 1620, 1335, 1661],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1334, 1620, 1345, 1654],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [1344, 1620, 1363, 1654],
+                        "value": "3"
+                    },
+                    {
+                        "charbox": [1362, 1620, 1382, 1654],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1381, 1620, 1390, 1661],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1389, 1620, 1409, 1654],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1408, 1620, 1428, 1654],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1427, 1620, 1447, 1654],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 1624, 337, 1663],
+                "value": "2",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 1626, 335, 1661],
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "wordbox": [399, 1731, 481, 1773],
+                "value": "레미콘",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [401, 1733, 429, 1767],
+                        "value": "레"
+                    },
+                    {
+                        "charbox": [428, 1733, 454, 1767],
+                        "value": "미"
+                    },
+                    {
+                        "charbox": [453, 1733, 479, 1771],
+                        "value": "콘"
+                    }
+                ]
+            },
+            {
+                "wordbox": [909, 1736, 968, 1774],
+                "value": "572",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [911, 1738, 930, 1772],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [929, 1738, 948, 1772],
+                        "value": "7"
+                    },
+                    {
+                        "charbox": [947, 1738, 966, 1772],
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1074, 1736, 1160, 1781],
+                "value": "7,475",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1076, 1738, 1095, 1772],
+                        "value": "7"
+                    },
+                    {
+                        "charbox": [1094, 1738, 1103, 1779],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1102, 1738, 1122, 1772],
+                        "value": "4"
+                    },
+                    {
+                        "charbox": [1121, 1738, 1140, 1772],
+                        "value": "7"
+                    },
+                    {
+                        "charbox": [1139, 1738, 1158, 1772],
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1287, 1736, 1450, 1781],
+                "value": "18,850,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1289, 1738, 1300, 1772],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [1299, 1738, 1319, 1772],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [1318, 1738, 1327, 1779],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1326, 1738, 1346, 1772],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [1345, 1738, 1364, 1772],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [1363, 1738, 1383, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1382, 1738, 1391, 1779],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1390, 1738, 1410, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1409, 1738, 1429, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1428, 1738, 1448, 1772],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1645, 1736, 1798, 1781],
+                "value": "8,920,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [1647, 1738, 1667, 1772],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [1666, 1738, 1675, 1779],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1674, 1738, 1694, 1772],
+                        "value": "9"
+                    },
+                    {
+                        "charbox": [1693, 1738, 1712, 1772],
+                        "value": "2"
+                    },
+                    {
+                        "charbox": [1711, 1738, 1731, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1730, 1738, 1739, 1779],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [1738, 1738, 1758, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1757, 1738, 1777, 1772],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [1776, 1738, 1796, 1772],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 1741, 337, 1780],
+                "value": "3",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 1743, 335, 1778],
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "wordbox": [309, 1858, 338, 1897],
+                "value": "4",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [311, 1860, 336, 1895],
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 1976, 337, 2015],
+                "value": "5",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 1978, 335, 2013],
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 2093, 337, 2132],
+                "value": "6",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 2095, 335, 2130],
+                        "value": "6"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 2210, 337, 2249],
+                "value": "7",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 2212, 335, 2247],
+                        "value": "7"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 2328, 337, 2367],
+                "value": "8",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 2330, 335, 2365],
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "wordbox": [310, 2445, 337, 2484],
+                "value": "9",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [312, 2447, 335, 2482],
+                        "value": "9"
+                    }
+                ]
+            },
+            {
+                "wordbox": [305, 2562, 349, 2601],
+                "value": "10",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [307, 2564, 318, 2599],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [324, 2564, 347, 2599],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [305, 2680, 343, 2719],
+                "value": "11",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [307, 2682, 318, 2717],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [330, 2682, 341, 2717],
+                        "value": "1"
+                    }
+                ]
+            },
+            {
+                "wordbox": [305, 2797, 350, 2836],
+                "value": "12",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [307, 2799, 318, 2834],
+                        "value": "1"
+                    },
+                    {
+                        "charbox": [325, 2799, 347, 2834],
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "wordbox": [510, 2908, 700, 2953],
+                "value": "398,500,000",
+                "source": "content",
+                "letter": [
+                    {
+                        "charbox": [512, 2910, 531, 2944],
+                        "value": "3"
+                    },
+                    {
+                        "charbox": [530, 2910, 550, 2944],
+                        "value": "9"
+                    },
+                    {
+                        "charbox": [549, 2910, 569, 2944],
+                        "value": "8"
+                    },
+                    {
+                        "charbox": [568, 2910, 577, 2951],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [576, 2910, 595, 2944],
+                        "value": "5"
+                    },
+                    {
+                        "charbox": [594, 2910, 614, 2944],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [613, 2910, 633, 2944],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [632, 2910, 641, 2951],
+                        "value": ","
+                    },
+                    {
+                        "charbox": [640, 2910, 660, 2944],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [659, 2910, 679, 2944],
+                        "value": "0"
+                    },
+                    {
+                        "charbox": [678, 2910, 698, 2944],
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "wordbox": [398, 2910, 410, 2963],
+                "value": ":",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [400, 2912, 408, 2961],
+                        "value": ":"
+                    }
+                ]
+            },
+            {
+                "wordbox": [921, 2911, 1075, 2960],
+                "value": "(부가세",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [923, 2913, 936, 2958],
+                        "value": "("
+                    },
+                    {
+                        "charbox": [944, 2916, 984, 2955],
+                        "value": "부"
+                    },
+                    {
+                        "charbox": [990, 2916, 1031, 2955],
+                        "value": "가"
+                    },
+                    {
+                        "charbox": [1035, 2916, 1072, 2955],
+                        "value": "세"
+                    }
+                ]
+            },
+            {
+                "wordbox": [1101, 2911, 1350, 2960],
+                "value": "포함가격임)",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [1104, 2917, 1144, 2952],
+                        "value": "포"
+                    },
+                    {
+                        "charbox": [1151, 2916, 1191, 2954],
+                        "value": "함"
+                    },
+                    {
+                        "charbox": [1196, 2916, 1237, 2954],
+                        "value": "가"
+                    },
+                    {
+                        "charbox": [1243, 2916, 1278, 2955],
+                        "value": "격"
+                    },
+                    {
+                        "charbox": [1288, 2916, 1323, 2954],
+                        "value": "임"
+                    },
+                    {
+                        "charbox": [1336, 2913, 1348, 2957],
+                        "value": ")"
+                    }
+                ]
+            },
+            {
+                "wordbox": [279, 2913, 366, 2957],
+                "value": "합계",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [281, 2916, 322, 2954],
+                        "value": "합"
+                    },
+                    {
+                        "charbox": [327, 2916, 364, 2955],
+                        "value": "계"
+                    }
+                ]
+            },
+            {
+                "wordbox": [436, 2914, 486, 2955],
+                "value": "￦",
+                "source": "form",
+                "letter": [
+                    {
+                        "charbox": [438, 2916, 484, 2953],
+                        "value": "￦"
+                    }
+                ]
+            }
+        ]
+    }
+}
