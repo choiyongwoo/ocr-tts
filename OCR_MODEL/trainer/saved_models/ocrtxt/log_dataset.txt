@@ -1,0 +1,417 @@
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 15510
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 80143
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid
+num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid
+num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid	 dataset: /
+sub-directory:	/.	 num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid
+num samples: 158958
+--------------------------------------------------------------------------------
+dataset_root:    all_data/valid
+num samples: 158958
+--------------------------------------------------------------------------------
