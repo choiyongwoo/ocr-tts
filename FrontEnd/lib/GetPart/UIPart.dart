@@ -8,7 +8,7 @@ import '../Tool/MyTheme.dart';
 
 class UIPart extends GetxController {
   final box = GetStorage();
-  bool isstart = false;
+  int isstart = 99;
   bool isspeechtoggle = true;
   double maxWidth = 0.0;
   double maxHeight = 0.0;
@@ -22,18 +22,17 @@ class UIPart extends GetxController {
   String txtcontents = '';
   int filelen = 0;
   bool isclikedpdf = false;
-  int clickwhat = 99;
   bool loading = false;
   bool sheetloading = false;
   int statusbarcolor = 0;
   Color backgroundcolor = MyTheme.colorgreyshade;
   Color color_textstatus = MyTheme.colorWhite;
   Color color_text = MyTheme.colorblack;
-  List<bool> processlist = [
+  /*List<bool> processlist = [
     true,
     false,
     false,
-  ];
+  ];*/
   List<bool> drawerlist = [
     true,
   ];
@@ -175,7 +174,7 @@ class UIPart extends GetxController {
     notifyChildrens();
   }
 
-  void setprocesslist(int what) {
+  /*void setprocesslist(int what) {
     if (processlist[what] == true) {
     } else {
       for (int i = 0; i < processlist.length; i++) {
@@ -188,7 +187,7 @@ class UIPart extends GetxController {
 
     update();
     notifyChildrens();
-  }
+  }*/
 
   void setdrawerlist(int what) {
     if (drawerlist[what] == true) {
@@ -212,7 +211,7 @@ class UIPart extends GetxController {
     notifyChildrens();
   }
 
-  void setstart(bool what) {
+  void setstart(int what) {
     isstart = what;
 
     update();
@@ -263,12 +262,6 @@ class UIPart extends GetxController {
 
   void setmp3filepath(String what) {
     mp3paths = what;
-    update();
-    notifyChildrens();
-  }
-
-  void setclickwhat(int what) {
-    clickwhat = what;
     update();
     notifyChildrens();
   }
