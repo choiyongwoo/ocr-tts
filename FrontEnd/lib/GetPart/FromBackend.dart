@@ -110,51 +110,24 @@ class FromBackend extends GetxController {
       fileinfo = jsonDecode(responsebody);
       filepath = fileinfo[0]['pdfFilePath'];
       uiset.setpdffilepath(filepath, 1);
-      //mp3path = fileinfo[0]['mp3FilePath'];
-      //uiset.setmp3filepath(mp3path);
+      mp3path = fileinfo[0]['mp3FilePath'];
+      uiset.setmp3filepath(mp3path ?? '');
       setstatus('', 'PDF');
-      //setstatus('', 'MP3');
+      setstatus('', 'MP3');
     } else if (statuscode == 400 || statuscode == 450 || statuscode == 500) {
       setstatus('Bad Request', 'PDF');
       setstatus('Bad Request', 'MP3');
-      uiset.setprocesslist(0);
+      //uiset.setprocesslist(0);
     } else {
       setstatus('Server Not Exists', 'PDF');
       setstatus('Server Not Exists', 'MP3');
-      uiset.setprocesslist(0);
+      //uiset.setprocesslist(0);
     }
   }
 
   Future FetchPDFPath() async {
-    var filebyte;
-
-    if (statuscode == 200 || statuscode == 201) {
-      bool isPDF = checkIfPDF(uiset.filepaths);
-
-      if (isPDF) {
-        // PDF 파일인 경우
-        //await loadfile2_1(uiset.filepaths);
-        uiset.setprocesslist(1);
-      } else {
-        // PDF 파일이 아닌 경우
-      }
-
-      return uiset.filepaths;
-    } else if (statuscode == 400 || statuscode == 450 || statuscode == 500) {
-      uiset.setprocesslist(0);
-      return uiset.filepaths;
-    } else {
-      uiset.setprocesslist(0);
-      return uiset.filepaths;
-    }
+    return uiset.filepaths;
   }
-
-  /*loadfile2_1(String filePath) async {
-    Uint8List? bytes;
-    final file = File(filePath);
-    bytes = await file.readAsBytes();
-    uiset.setpdffilebytes(bytes);
-  }*/
 
   Future setAudio(String status) async {
     //var filemp3;
