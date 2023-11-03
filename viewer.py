@@ -43,7 +43,7 @@ class Viewer:
       raise Exception("'path' must be file type, not directory")
     self.fFullName = os.path.split(self.fPath)[1]
     self.fName, self.fExtension = os.path.splitext(self.fFullName)
-    self.outputPath = os.path.join(self.rootDirPath,'PDF',self.fName+'.pdf')
+    self.outputPath = os.path.join(self.rootDirPath,'PDF',self.fName+'.pdf').replace('\\','/')
 
   def file_convert_Windows_or_Linux(self):
     if self.fExtension == '.pdf':
