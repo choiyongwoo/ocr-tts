@@ -43,8 +43,8 @@ class Batch_Balanced_Dataset(object):
         try:
             image, text = next(self.dataloader_iter)
         except StopIteration:
-            # DataLoader를 재설정하는 대신, 더 이상 데이터가 없음을 알리고 루프를 종료합니다.
-            raise RuntimeError("DataLoader has been exhausted and there is no more data to fetch.")
+            self.dataloader_iter = iter(self.data_loader)
+            image, text = next(self.dataloader_iter)
         return image, text
 
 
