@@ -41,9 +41,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     fb.setAudio('reset');
     fb.player.onDurationChanged.listen((newDuration) {
       fb.setDuration(newDuration);
+      final difference =
+          fb.duration.inMilliseconds - fb.position.inMilliseconds;
+      final threshold = 100; // milliseconds
+
+      if (difference <= threshold) {
+        // 플레이어의 길이 끝에 도달한 경우 플레이어 정지
+        fb.isplaying('stop');
+        fb.player.stop();
+      }
     });
     fb.player.onPositionChanged.listen((newPosition) {
       fb.setPosition(newPosition);
+      final difference =
+          fb.duration.inMilliseconds - fb.position.inMilliseconds;
+      final threshold = 100; // milliseconds
+
+      if (difference <= threshold) {
+        // 플레이어의 길이 끝에 도달한 경우 플레이어 정지
+        fb.isplaying('stop');
+        fb.player.stop();
+      }
     });
   }
 

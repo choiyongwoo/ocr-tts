@@ -38,7 +38,7 @@ dependencies:
   device_info:
   url_strategy:
   url_launcher: 
-  js: 
+  js:  
   # Use this library for size responsive layout setting
   responsive_sizer:
   window_manager:
@@ -53,6 +53,7 @@ dependencies:
   animated_text_kit:
   flutter_icon_snackbar:
   audioplayers:
+  audioplayers_windows:
   simple_circular_progress_bar:
   # Use these library for get http async
   get: 

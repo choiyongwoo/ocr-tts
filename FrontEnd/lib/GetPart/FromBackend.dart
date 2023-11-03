@@ -2,8 +2,6 @@
 
 import 'dart:async';
 import 'dart:convert';
-//import 'dart:io';
-//import 'dart:typed_data';
 import 'package:get/get.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:http/http.dart';
@@ -100,7 +98,7 @@ class FromBackend extends GetxController {
       Uri.parse(queryUri),
     );
     setcode(response.statusCode);
-    setbody(response.body);
+    setbody(utf8.decode(response.bodyBytes));
   }
 
   //mp3가 완성되면 아래 주석 해제후 다시 돌려볼 예정
@@ -108,12 +106,19 @@ class FromBackend extends GetxController {
     var filepath, filebyte, mp3path, fileinfo;
     if (statuscode == 200 || statuscode == 201) {
       fileinfo = jsonDecode(responsebody);
-      filepath = fileinfo[0]['pdfFilePath'];
+      filepath = fileinfo[0]['pdfFilePath'].toString();
       uiset.setpdffilepath(filepath, 1);
-      mp3path = fileinfo[0]['mp3FilePath'];
-      uiset.setmp3filepath(mp3path ?? '');
+      mp3path = fileinfo[0]['mp3FilePath'].toString();
+      uiset.setmp3filepath(mp3path);
+      if (uiset.mp3paths != '') {
+        setstatus('', 'MP3');
+        player.setReleaseMode(ReleaseMode.loop);
+        await player.setSourceDeviceFile(mp3path);
+      } else {
+        setstatus('Bad Request', 'MP3');
+      }
+
       setstatus('', 'PDF');
-      setstatus('', 'MP3');
     } else if (statuscode == 400 || statuscode == 450 || statuscode == 500) {
       setstatus('Bad Request', 'PDF');
       setstatus('Bad Request', 'MP3');
@@ -126,6 +131,12 @@ class FromBackend extends GetxController {
   }
 
   Future FetchPDFPath() async {
+    //var byte;
+
+    //byte = await rootBundle.load(uiset.filepaths);
+    //uiset.setpdffilebyte(byte);
+    //return byte;
+
     return uiset.filepaths;
   }
 
@@ -133,25 +144,12 @@ class FromBackend extends GetxController {
     //var filemp3;
     if (status == 'reset') {
       uiset.setmp3filepath('');
-    } else {}
-
-    /*filemp3 = await loadmp3File(uiset.mp3paths);
-    if (filemp3 == null) {
-      setstatus('Bad Request');
-      setDuration(Duration.zero);
-      setPosition(Duration.zero);
-    } else {
       isplaying('stop');
       setDuration(Duration.zero);
       setPosition(Duration.zero);
-      player.setReleaseMode(ReleaseMode.loop);
-      await player.setSourceDeviceFile(uiset.mp3paths);
-    }*/
-    isplaying('stop');
-    setDuration(Duration.zero);
-    setPosition(Duration.zero);
-    if (uiset.mp3paths == '') {
     } else {
+      setDuration(Duration.zero);
+      setPosition(Duration.zero);
       player.setReleaseMode(ReleaseMode.loop);
       await player.setSourceDeviceFile(uiset.mp3paths);
     }
@@ -160,29 +158,26 @@ class FromBackend extends GetxController {
   // Fetchtextorvoice
   // 서버에서 mp3를 불러옴
   Future Fetchvoice() async {
-    var filemp3;
-
-    //uiset.setmp3filepath('C:/Users/chosungsu/Desktop/audio.mp3');
-    filemp3 = await loadmp3File(uiset.mp3paths);
-    if (filemp3 == null) {
+    if (uiset.mp3paths == '') {
       setstatus('Bad Request', 'MP3');
     } else {
-      isplaying('stop');
       setstatus('', 'MP3');
       player.setReleaseMode(ReleaseMode.loop);
       await player.setSourceDeviceFile(uiset.mp3paths);
     }
-    return filemp3;
+    return uiset.mp3paths;
   }
 
-  Future<AudioPlayer?> loadmp3File(String filePath) async {
+  /*Future<AudioPlayer?> loadmp3File(String filePath) async {
     try {
+      player.setReleaseMode(ReleaseMode.loop);
       await player.setSourceDeviceFile(filePath);
       return player;
     } catch (e) {
+      print('MP3 파일 확인 중 오류 발생: $e');
       return null;
     }
-  }
+  }*/
 
   void isplaying(String what) {
     playing = what;

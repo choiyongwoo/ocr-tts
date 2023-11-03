@@ -16,8 +16,10 @@ class UIPart extends GetxController {
   Uint8List filebytes = Uint8List(1);
   String filename = '';
   String postfilepaths = '';
+  ByteData filebyte = ByteData(1);
   String filepaths = '';
   String txtpaths = '';
+  ByteData mp3byte = ByteData(1);
   String mp3paths = '';
   String txtcontents = '';
   int filelen = 0;
@@ -232,15 +234,6 @@ class UIPart extends GetxController {
     notifyChildrens();
   }
 
-  /// Each
-
-  void setpdffilebytes(Uint8List what) {
-    filebytes = what;
-    setclickedpdf(true);
-    update();
-    notifyChildrens();
-  }
-
   void setpdffilename(String what) {
     filename = what;
     setclickedpdf(true);
@@ -260,8 +253,20 @@ class UIPart extends GetxController {
     notifyChildrens();
   }
 
+  void setpdffilebyte(what) {
+    filebytes = what;
+    update();
+    notifyChildrens();
+  }
+
   void setmp3filepath(String what) {
     mp3paths = what;
+    update();
+    notifyChildrens();
+  }
+
+  void setmp3filebyte(what) {
+    mp3byte = what;
     update();
     notifyChildrens();
   }
