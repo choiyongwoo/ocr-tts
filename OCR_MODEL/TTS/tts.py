@@ -93,7 +93,7 @@ def run_tts(text = None, mp3_file_name = None):
     :return: None
     '''
 
-    session = Session(profile_name='default')
+    session = Session(profile_name='chocopytorch')
     polly = session.client("polly")
     voice_id = 'Seoyeon'
     input_msg = text

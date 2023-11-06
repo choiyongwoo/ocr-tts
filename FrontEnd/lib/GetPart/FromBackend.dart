@@ -48,6 +48,7 @@ class FromBackend extends GetxController {
   // tosendfile
   // 서버에 pdf를 포함한 다양한 경로의 파일을 저장
   Future tosendfile() async {
+    print('POST : ' + uiset.postfilepaths);
     String starturl = GetPlatform.isWindows
         ? 'http://localhost:8000/convert/ConvertFile'
         : 'http://10.0.2.2:8000/convert/ConvertFile';
@@ -87,6 +88,7 @@ class FromBackend extends GetxController {
 
   Future<void> getRes() async {
     var qrstring;
+    print('GETRES : ' + uiset.filename);
     Map<String, String> parameter = {"fileName": uiset.filename};
 
     String starturl = GetPlatform.isWindows
@@ -110,6 +112,8 @@ class FromBackend extends GetxController {
       uiset.setpdffilepath(filepath, 1);
       mp3path = fileinfo[0]['mp3FilePath'].toString();
       uiset.setmp3filepath(mp3path);
+      print('PDF : ' + filepath);
+      print('MP3 : ' + mp3path);
       if (uiset.mp3paths != '') {
         setstatus('', 'MP3');
         player.setReleaseMode(ReleaseMode.loop);

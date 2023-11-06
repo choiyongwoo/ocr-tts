@@ -183,7 +183,7 @@ def run(file_name=''):  # file_name으로 pdf file 이름 받아와서 이 파�
     
     ssml_doc = make_ssml(all_bbox_list)
     mp3_path = os.path.join(str(top_dir), 'MP3', file_name + '.mp3').replace('\\', '/')
-    # run_tts(ssml_doc, mp3_path)
+    run_tts(ssml_doc, mp3_path)
         #######################  수정  ###########################
         # mp3_path = os.path.join(str(top_dir), 'MP3', img_o[:-4] + '.mp3').replace('\\', '/')
         # # print(ssml_doc)

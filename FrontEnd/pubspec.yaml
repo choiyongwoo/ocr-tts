@@ -39,6 +39,7 @@ dependencies:
   url_strategy:
   url_launcher: 
   js:  
+  fs_shim:
   # Use this library for size responsive layout setting
   responsive_sizer:
   window_manager:

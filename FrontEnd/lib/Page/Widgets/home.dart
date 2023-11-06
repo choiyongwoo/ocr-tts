@@ -177,6 +177,7 @@ Searchview(context, maxHeight, maxWidth, searchNode, section) {
                                     uiset.setclickedpdf(false);
                                     fb.setstatus('', 'PDF');
                                     fb.setstatus('', 'MP3');
+                                    //await loadfile3(context);
                                     files = await loadfile3();
                                     if (files[0] != null) {
                                       uiset.setstart(0);
