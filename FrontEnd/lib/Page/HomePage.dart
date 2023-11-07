@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_typing_uninitialized_variables, unused_local_variable, non_constant_identifier_names, camel_case_types, file_names
 
+import 'dart:async';
+
 import 'package:dplit/GetPart/FromBackend.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -25,6 +27,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   final uiset = Get.put(UIPart());
   final fb = Get.put(FromBackend());
   bool speechEnabled = false;
+  var threshold = 100;
+  var difference = 0;
   late PdfViewerController pdfViewerController;
 
   @override
@@ -39,28 +43,21 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     textcontroller = TextEditingController();
     pdfViewerController = PdfViewerController();
     fb.setAudio('reset');
+
     fb.player.onDurationChanged.listen((newDuration) {
       fb.setDuration(newDuration);
-      final difference =
-          fb.duration.inMilliseconds - fb.position.inMilliseconds;
-      final threshold = 100; // milliseconds
-
-      if (difference <= threshold) {
-        // 플레이어의 길이 끝에 도달한 경우 플레이어 정지
-        fb.isplaying('stop');
-        fb.player.stop();
-      }
     });
-    fb.player.onPositionChanged.listen((newPosition) {
-      fb.setPosition(newPosition);
-      final difference =
-          fb.duration.inMilliseconds - fb.position.inMilliseconds;
-      final threshold = 100; // milliseconds
-
-      if (difference <= threshold) {
-        // 플레이어의 길이 끝에 도달한 경우 플레이어 정지
+    fb.player.onPositionChanged.listen((newPosition) async {
+      if (fb.playing != 'stop' || fb.playing != 'pause') {
+        fb.setPosition(newPosition);
+      }
+      difference = fb.duration.inMilliseconds - fb.position.inMilliseconds;
+      fb.setdifference(difference);
+      if (fb.differ <= threshold) {
+        print('==========STOP==========');
         fb.isplaying('stop');
-        fb.player.stop();
+        fb.setPosition(Duration.zero);
+        //fb.player.stop();
       }
     });
   }

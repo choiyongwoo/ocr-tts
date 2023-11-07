@@ -16,6 +16,8 @@ class FromBackend extends GetxController {
   final player = AudioPlayer();
   Duration duration = Duration.zero;
   Duration position = Duration.zero;
+  var threshold = 1000;
+  int differ = 0;
   int statuscode = 0;
   String responsebody = '';
   String ipAddress = 'default';
@@ -144,44 +146,32 @@ class FromBackend extends GetxController {
     return uiset.filepaths;
   }
 
-  Future setAudio(String status) async {
+  setAudio(String status) {
     //var filemp3;
+    print('==========SETAUDIO==========');
     if (status == 'reset') {
-      uiset.setmp3filepath('');
+      //uiset.setmp3filepath('');
       isplaying('stop');
-      setDuration(Duration.zero);
       setPosition(Duration.zero);
     } else {
-      setDuration(Duration.zero);
       setPosition(Duration.zero);
-      player.setReleaseMode(ReleaseMode.loop);
-      await player.setSourceDeviceFile(uiset.mp3paths);
     }
   }
 
   // Fetchtextorvoice
   // 서버에서 mp3를 불러옴
   Future Fetchvoice() async {
-    if (uiset.mp3paths == '') {
-      setstatus('Bad Request', 'MP3');
-    } else {
-      setstatus('', 'MP3');
-      player.setReleaseMode(ReleaseMode.loop);
-      await player.setSourceDeviceFile(uiset.mp3paths);
-    }
-    return uiset.mp3paths;
-  }
+    if (playing == 'stop') {
+      //isplaying('pause');
+      setAudio('stop');
 
-  /*Future<AudioPlayer?> loadmp3File(String filePath) async {
-    try {
-      player.setReleaseMode(ReleaseMode.loop);
-      await player.setSourceDeviceFile(filePath);
-      return player;
-    } catch (e) {
-      print('MP3 파일 확인 중 오류 발생: $e');
+      //player.pause();
       return null;
+    } else {
+      print('==========FETCH==========');
+      return uiset.mp3paths;
     }
-  }*/
+  }
 
   void isplaying(String what) {
     playing = what;
@@ -198,6 +188,13 @@ class FromBackend extends GetxController {
 
   void setPosition(Duration what) {
     position = what;
+
+    update();
+    notifyChildrens();
+  }
+
+  void setdifference(int what) {
+    differ = what;
 
     update();
     notifyChildrens();

@@ -201,9 +201,10 @@ Searchview(context, maxHeight, maxWidth, searchNode, section) {
                                             label:
                                                 '음성변환 중 예기치 못한 에러로 인해 사용불가상태입니다! 다시 시도해주세요');
                                       } else {
-                                        fb.setAudio('start');
-                                        fb.isplaying('stop');
-                                        fb.player.stop();
+                                        fb.setAudio('reset');
+                                        // fb.setAudio('start');
+                                        // fb.isplaying('stop');
+                                        // fb.player.stop();
                                       }
                                       uiset.setstart(1);
                                     } else {
@@ -583,169 +584,161 @@ Viewdrawerbox() {
       return FutureBuilder(
         future: fb.Fetchvoice(),
         builder: (context, snapshot) {
-          if (snapshot.hasData || fb.status_mp3 == '') {
-            return SizedBox(
-                child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Slider(
-                    min: 0,
-                    max: fb.duration.inSeconds.toDouble(),
-                    value: fb.position.inSeconds.toDouble(),
-                    onChanged: (value) async {
-                      final position = Duration(seconds: value.toInt());
-                      await fb.player.seek(position);
+          return fb.status_mp3 == ''
+              ? Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    GetBuilder<FromBackend>(builder: (_) {
+                      return Slider(
+                          min: 0,
+                          max: fb.duration.inSeconds.toDouble(),
+                          value: fb.position.inSeconds.toDouble(),
+                          onChanged: (value) async {
+                            final position = Duration(seconds: value.toInt());
+                            await fb.player.seek(position);
+                          });
                     }),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        formatTime(fb.position),
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            wordSpacing: 2,
-                            letterSpacing: 2,
-                            fontWeight: FontWeight.bold,
-                            fontSize: contentTextsize(),
-                            color: MyTheme.colorblack),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            formatTime(fb.position),
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                wordSpacing: 2,
+                                letterSpacing: 2,
+                                fontWeight: FontWeight.bold,
+                                fontSize: contentTextsize(),
+                                color: MyTheme.colorblack),
+                          ),
+                          Text(
+                            formatTime(fb.duration),
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                wordSpacing: 2,
+                                letterSpacing: 2,
+                                fontWeight: FontWeight.bold,
+                                fontSize: contentTextsize(),
+                                color: MyTheme.colorblack),
+                          ),
+                        ],
                       ),
-                      Text(
-                        formatTime(fb.duration),
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            wordSpacing: 2,
-                            letterSpacing: 2,
-                            fontWeight: FontWeight.bold,
-                            fontSize: contentTextsize(),
-                            color: MyTheme.colorblack),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
-                    child: Row(
+                    ),
+                    Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              children: [
+                                InkWell(
+                                    onTap: () async {
+                                      fb.isplaying('stop');
+                                      fb.player.stop();
+                                    },
+                                    child: Icon(
+                                      Ionicons.stop,
+                                      color: MyTheme.colororigred,
+                                      size: largeiconsize(),
+                                    )),
+                                const SizedBox(
+                                  width: 10,
+                                ),
+                                InkWell(
+                                    onTap: () async {
+                                      if (fb.playing == 'pause') {
+                                        fb.isplaying('resume');
+                                        fb.player.resume();
+                                      } else if (fb.playing == 'stop') {
+                                        print('==========PLAYING==========');
+                                        fb.isplaying('play');
+                                        //fb.loadmp3File(uiset.mp3paths);
+                                        fb.player.play(
+                                            DeviceFileSource(uiset.mp3paths));
+                                      } else {
+                                        fb.isplaying('pause');
+                                        fb.player.pause();
+                                      }
+                                    },
+                                    child: Icon(
+                                      fb.playing == 'pause' ||
+                                              fb.playing == 'stop'
+                                          ? AntDesign.play
+                                          : AntDesign.pausecircle,
+                                      color: MyTheme.colororigblue,
+                                      size: largeiconsize(),
+                                    ))
+                              ],
+                            )
+                          ],
+                        ))
+                  ],
+                )
+              : (fb.status_mp3 == 'Bad Request' ||
+                      fb.status_mp3 == 'Server Not Exists'
+                  ? Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        GetBuilder<FromBackend>(builder: (_) {
-                          return Row(
-                            children: [
-                              InkWell(
-                                  onTap: () async {
-                                    fb.isplaying('stop');
-                                    fb.player.stop();
-                                  },
-                                  child: Icon(
-                                    Ionicons.stop,
-                                    color: MyTheme.colororigred,
-                                    size: largeiconsize(),
-                                  )),
-                              const SizedBox(
-                                width: 10,
-                              ),
-                              InkWell(
-                                  onTap: () async {
-                                    if (fb.playing == 'pause') {
-                                      fb.isplaying('resume');
-                                      fb.player.resume();
-                                    } else if (fb.playing == 'stop') {
-                                      fb.isplaying('play');
-                                      //fb.loadmp3File(uiset.mp3paths);
-                                      fb.player.play(
-                                          DeviceFileSource(uiset.mp3paths));
-                                    } else {
-                                      fb.isplaying('pause');
-                                      fb.player.pause();
-                                    }
-                                  },
-                                  child: Icon(
-                                    fb.playing == 'pause' ||
-                                            fb.playing == 'stop'
-                                        ? AntDesign.play
-                                        : AntDesign.pausecircle,
-                                    color: MyTheme.colororigblue,
-                                    size: largeiconsize(),
-                                  ))
-                            ],
-                          );
-                        })
+                        const Icon(
+                          AntDesign.frowno,
+                          color: Colors.red,
+                          size: 30,
+                        ),
+                        const SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          fb.status_mp3,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              wordSpacing: 2,
+                              letterSpacing: 2,
+                              fontWeight: FontWeight.bold,
+                              fontSize: contentTextsize(),
+                              color: MyTheme.colororigred),
+                        ),
+                        const SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          'x버튼을 클릭하여 재시도해주세요',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              wordSpacing: 2,
+                              letterSpacing: 2,
+                              fontWeight: FontWeight.normal,
+                              fontSize: contentsmallTextsize(),
+                              color: MyTheme.colorgreyshade),
+                        ),
                       ],
-                    ))
-              ],
-            ));
-          } else {
-            if (fb.status_mp3 == 'Bad Request' ||
-                fb.status_mp3 == 'Server Not Exists') {
-              return SizedBox(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    const Icon(
-                      AntDesign.frowno,
-                      color: Colors.red,
-                      size: 30,
-                    ),
-                    const SizedBox(
-                      height: 15,
-                    ),
-                    Text(
-                      fb.status_mp3,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          wordSpacing: 2,
-                          letterSpacing: 2,
-                          fontWeight: FontWeight.bold,
-                          fontSize: contentTextsize(),
-                          color: MyTheme.colororigred),
-                    ),
-                    const SizedBox(
-                      height: 15,
-                    ),
-                    Text(
-                      'x버튼을 클릭하여 재시도해주세요',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          wordSpacing: 2,
-                          letterSpacing: 2,
-                          fontWeight: FontWeight.normal,
-                          fontSize: contentsmallTextsize(),
-                          color: MyTheme.colorgreyshade),
-                    ),
-                  ],
-                ),
-              );
-            } else {
-              return SizedBox(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    CircularProgressIndicator(
-                      color: MyTheme.colororigblue,
-                    ),
-                    const SizedBox(
-                      height: 15,
-                    ),
-                    Text(
-                      '서버로부터 불러오는 중입니다. 잠시만 기다려주십시오.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          wordSpacing: 2,
-                          letterSpacing: 2,
-                          fontWeight: FontWeight.normal,
-                          fontSize: contentsmallTextsize(),
-                          color: MyTheme.colorgreyshade),
-                    ),
-                  ],
-                ),
-              );
-            }
-          }
+                    )
+                  : Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        CircularProgressIndicator(
+                          color: MyTheme.colororigblue,
+                        ),
+                        const SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          '서버로부터 불러오는 중입니다. 잠시만 기다려주십시오.',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              wordSpacing: 2,
+                              letterSpacing: 2,
+                              fontWeight: FontWeight.normal,
+                              fontSize: contentsmallTextsize(),
+                              color: MyTheme.colorgreyshade),
+                        ),
+                      ],
+                    ));
         },
       );
     }),
