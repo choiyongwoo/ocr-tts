@@ -11,8 +11,10 @@
 
 This project was conducted from August 2023 to November 2023 on the development of an ocr and tts model for Blind or Visually impaired people.
 
-Here is the site of
-[V Ridge](https://v-ridge.netlify.app/).
+Here is the Windows app of VRidge.
+
+
+<img src='https://github.com/pytorch-team/ocr-tts/assets/48382347/c5804d58-9465-4766-a76e-cbe019da4da7' width="width 100%" height="height 100%">
 
 
 ## Workflow
@@ -27,9 +29,17 @@ We have a workflow that visualizes the ocr-tts algorithm written in Python throu
     * Flutter
   * Algorithm
     * Python
+    * 
 ### Structure
-  * FrontEnd
 
+  * BackEnd
+  * FrontEnd
+  * OCR_MODEL
+  * MP3
+     * TTS모델을 통한 음성변환된 .mp3파일을 저장하는 공간입니다.
+  * PDF
+     * 다양한 확장자의 파일을 PDF변환된 .pdf파일을 저장하는 공간입니다.
+    
 ## TODO
 
  

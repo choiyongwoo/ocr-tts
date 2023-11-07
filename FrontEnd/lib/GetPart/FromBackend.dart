@@ -151,9 +151,14 @@ class FromBackend extends GetxController {
     print('==========SETAUDIO==========');
     if (status == 'reset') {
       //uiset.setmp3filepath('');
-      isplaying('stop');
+      //isplaying('stop');
       setPosition(Duration.zero);
     } else {
+      if (player.state == PlayerState.playing) {
+        player.stop();
+      }
+
+      isplaying('stop');
       setPosition(Duration.zero);
     }
   }

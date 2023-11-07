@@ -48,9 +48,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       fb.setDuration(newDuration);
     });
     fb.player.onPositionChanged.listen((newPosition) async {
-      if (fb.playing != 'stop' || fb.playing != 'pause') {
-        fb.setPosition(newPosition);
-      }
+      fb.setPosition(newPosition);
       difference = fb.duration.inMilliseconds - fb.position.inMilliseconds;
       fb.setdifference(difference);
       if (fb.differ <= threshold) {
