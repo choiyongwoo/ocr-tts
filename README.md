@@ -29,7 +29,7 @@ We have a workflow that visualizes the ocr-tts algorithm written in Python throu
     * Flutter
   * Algorithm
     * Python
-    * 
+      
 ### Structure
 
   * BackEnd
